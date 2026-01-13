@@ -1,0 +1,29 @@
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int fee;
+	printf("enter the value of fee");
+	scanf("%d",&fee);
+	if (fee<200000)
+	{
+		printf("complete");
+	}
+	else if (fee<15000)
+	{
+		printf("not complete");
+	}
+	else if (fee<100000)
+	{
+		printf("balanec");
+	}
+	else if (fee<0)
+	{
+		printf("total balance");
+	}
+	else{
+		printf("0 pay");
+	}
+	return 0;
+}
